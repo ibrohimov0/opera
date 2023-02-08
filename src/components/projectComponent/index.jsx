@@ -51,6 +51,7 @@ function ProjectComponent(props) {
                         </li>
                     })} */}
                 </ul>
+                <button>Barchasini ko'rish</button>
             </div>
         </div>
     )

@@ -1,0 +1,46 @@
+.projectComp h1{
+    font-size: 2.5vw;
+    color: var(--black);
+    margin-bottom: 5%;
+}
+.projectComp ul{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 7%;
+}
+.projectComp ul li{
+    width: 28%;
+    margin: 1.5% 1%;
+    border-radius: 1vw;
+    position: relative;
+}
+.projectComp ul li:hover{
+    box-shadow: var(--box-shadow);
+    transform: scale(1.01);
+}
+.projectComp ul li img{
+    width: 100%;
+}
+.projectComp ul li h4{
+    font-size: 1.5vw;
+    color: var(--black);
+    margin: 5%;
+}
+.projectComp button:last-child{
+    color: var(--black);
+    border: 0.2vw solid var(--gold);
+    padding: 1.5% 4%;
+    border-radius: 2vw;
+    font-size: 1.3vw;
+    margin: 0 39.7%;
+}
+.projectComp button:last-child:hover{
+    background: var(--gold);
+    color: var(--white);
+}
+.projectComp ul li button{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
