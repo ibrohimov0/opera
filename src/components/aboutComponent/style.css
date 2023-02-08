@@ -37,6 +37,8 @@
     width: 40%;
     top: 20%;
     margin-bottom: 20%;
+    animation-name: modal;
+    animation-duration: 2s;
 }
 .aboutComp .aboutModal img{
     width: 100%;
@@ -51,4 +53,22 @@
 .aboutComp .aboutModal p{
     width: 80%;
     margin: 5% auto;
+    
+}
+.aboutComp i{
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    font-size: 3vw;
+    z-index: 3;
+    color: #FFF;
+    cursor: pointer;
+}
+@keyframes modal {
+    from{
+        top: 100%;
+    }
+    to{
+        top: 20%;
+    }
 }
