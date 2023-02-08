@@ -1,0 +1,31 @@
+.aboutComp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.aboutComp .container{
+    padding: 10% 7%;
+}
+.aboutComp h1{
+    font-size: 4vw;
+    color: var(--black);
+}
+.aboutComp p{
+    width: 50%;
+    margin: 2% auto;
+    color: var(--black);
+    font-size: 1.1vw;
+}
+.aboutComp button{
+    color: var(--black);
+    border: 0.2vw solid var(--gold);
+    padding: 1.5% 4%;
+    border-radius: 2vw;
+    font-size: 1.3vw;
+}
+.aboutComp button:hover{
+    background: var(--gold);
+    color: var(--white);
+}
