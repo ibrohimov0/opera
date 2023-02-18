@@ -9,14 +9,14 @@
     padding: 7%;
 }
 .aboutComp h1{
-    font-size: 4vw;
+    font-size: 4.5vw;
     color: var(--black);
 }
 .aboutComp p{
     width: 50%;
     margin: 2% auto;
     color: var(--black);
-    font-size: 1.1vw;
+    font-size: 1.2vw;
 }
 .aboutComp button{
     color: var(--black);
@@ -45,15 +45,15 @@
     margin-bottom: 7%;
 }
 .aboutComp .aboutModal h1{
-    font-size: 2.5vw;
+    font-size: 2.6vw;
 }
 .aboutComp .aboutModal h2{
-    font-size: 2vw;
+    font-size: 2.1vw;
 }
 .aboutComp .aboutModal p{
     width: 80%;
     margin: 5% auto;
-    
+    font-size: 1.4vw;
 }
 .aboutComp i{
     position: absolute;
