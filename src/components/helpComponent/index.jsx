@@ -9,18 +9,20 @@ export function HelpComponent() {
                     <h1>XIZMATLAR</h1>
                     <h1>XIZMATLAR</h1>
                     <h1>XIZMATLAR</h1>
+                    <h1>XIZMATLAR</h1>
+                    <h1>XIZMATLAR</h1>
                 </div>
                 <ul>
                     <li>
-                        <img src={img} alt="photo" />
+                        <img src={img} alt="img" />
                         <h3>Brending</h3>
                     </li>
                     <li>
-                        <img src={img} alt="photo" />
+                        <img src={img} alt="img" />
                         <h3>Marketing</h3>
                     </li>
                     <li>
-                        <img src={img} alt="photo" />
+                        <img src={img} alt="img" />
                         <h3>Dizayn</h3>
                     </li>
                 </ul>
