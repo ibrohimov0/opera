@@ -1,11 +1,7 @@
-.helpComp, .helpComp .container, .helpComp .titleBox{
-    overflow-x: hidden !important;
-}
 .helpComp .titleBox{
     display: flex;
     align-items: center;
     margin: 5% 0;
-    width: 100%;
 }
 .helpComp .titleBox h1{
     position: absolute;
@@ -14,8 +10,6 @@
     animation-iteration-count: infinite;
     animation-duration: 15s;
     animation-name: stText;
-    right: -50%;
-    display: flex;
     width: max-content;
 }
 .helpComp .titleBox h1:nth-child(2){
@@ -38,7 +32,6 @@
         right: 150%;
     }
 }
-
 .helpComp ul{
     width: 100%;
     display: flex;
@@ -73,4 +66,19 @@
     margin: 1% 0;
     cursor: pointer;
     color: var(--gray);
+}
+@media (max-width: 650px) {
+    .helpComp ul li img{
+        width: 25vw;
+        height: 25vw;
+    }
+    .helpComp ul li h3{
+        font-size: 4vw;
+    }
+    .helpComp ul li p{
+        font-size: 2.5vw;
+    }
+    .helpComp .titleBox h1{
+        font-size: 5vw;
+    }
 }
