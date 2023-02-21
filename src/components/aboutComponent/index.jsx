@@ -5,7 +5,7 @@ function AboutComponent() {
     const [close ,setclose] = useState(false)
     const modal = useRef()
     const openModal = () => {
-        setclose(true)
+        setclose(true) 
         modal.current.style.animationName = "modal"
     }
     const closeModal = () => {
