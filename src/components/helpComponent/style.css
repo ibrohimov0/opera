@@ -1,7 +1,11 @@
-.helpComp .titleBox{
-    display: flex;
-    align-items: center;
-    margin: 5% 0;
+.helpComp .titleBox{ 
+    display: flex; 
+    align-items: center; 
+    width: 100%; 
+    height: 6vh; 
+    overflow: hidden; 
+    position: relative; 
+    margin: 1.5% 0;
 }
 .helpComp .titleBox h1{
     position: absolute;
@@ -38,7 +42,7 @@
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin-top: 10%;
+    margin-bottom: 7%;
 }
 .helpComp ul li{
     width: max-content;
