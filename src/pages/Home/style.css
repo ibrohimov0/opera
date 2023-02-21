@@ -34,10 +34,11 @@
     display: none;
 }
 
-.Tel:hover {
+.Tel {
     animation-name: TelOnHover;
     z-index: 2;
     animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
 
 .modalTel {
@@ -121,7 +122,7 @@
     }
 
     100% {
-        transform: rotate(0deg);
+        transform: rotate(30deg);
     }
 }
 
