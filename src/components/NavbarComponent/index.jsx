@@ -18,7 +18,7 @@ function Navbar() {
         barsSide.current.style.transform = 'translateX(-200%)'
     }
     const Uz = () => {
-        stP.current.style.color = "var(--gold)";
+        stP.current.style.color = "var(--gold";
         ndP.current.style.color = "var(--black)";
     }
     const Ru = () => {
