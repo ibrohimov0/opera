@@ -23,6 +23,7 @@
     padding: 0.5vw 1vw;
     color: var(--black);
     font-size: 1.05vw;
+    display: flex;
 }
 .Navbar li h3{
     font-weight: 450;
@@ -31,6 +32,12 @@
     font-size: 1.1vw;
     margin: .1vw .5vw;
     font-weight: 400;
+}
+.Navbar li p{
+    font-size: 1.1vw;
+    margin: .1vw .5vw;
+    font-weight: 400;
+    cursor: pointer;
 }
 .Navbar li h3:hover{
     color: var(--gold);

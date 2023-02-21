@@ -5,6 +5,8 @@ function Navbar() {
     const barsSide = useRef();
     const btnOpen = useRef();
     const btnClose = useRef();
+    const stP = useRef(true)
+    const ndP = useRef(false)
     const HandleOpenSide = () =>{
         btnClose.current.style.display = 'block'
         btnOpen.current.style.display = 'none'
@@ -15,6 +17,14 @@ function Navbar() {
         btnOpen.current.style.display = 'block'
         barsSide.current.style.transform = 'translateX(-200%)'
     }
+    const Uz = () => {
+        stP.current.style.color = "var(--gold)";
+        ndP.current.style.color = "var(--black)";
+    }
+    const Ru = () => {
+        ndP.current.style.color = "var(--gold)";
+        stP.current.style.color = "var(--black)";
+    }
   return (
     <>
     <div className="Navbar">
@@ -24,7 +34,10 @@ function Navbar() {
             <li><h3><button>BIZ HAQIMIZDA</button></h3></li>
             <li><h3><button>BAJARILGAN ISHLAR</button></h3></li>
             <li><h3><button>KONTAKTLAR</button></h3></li>
-            <li><button>UZ</button><button>RU</button></li>
+            <li>
+                <p ref={stP} onClick={Uz}>UZ</p>
+                <p ref={ndP} onClick={Ru}>RU</p>
+            </li>
         </ul>
     </div>
     <div className="BarsNav">
