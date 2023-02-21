@@ -11,10 +11,11 @@
 .FooterComponent p{
     font-size: 2vw;
     text-align: center;
+    margin-bottom: 2vw;
 }
 .FooterCompBox{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     padding: 2vw;
 }
@@ -68,17 +69,15 @@
     color: var(--black);
 }
 .FooterCompInbox button{
-    background: var(--gold);
-    padding: 1vw;
-    color: white;
+    color: var(--black);
+    border: 0.2vw solid var(--gold);
+    padding: 3.5% 4%;
+    border-radius: 2vw;
     font-size: 1.5vw;
-    border: .1vw solid white;
-    border-radius: .5vw;
 }
 .FooterCompInbox button:hover{
-    background: none;
-    border: .1vw solid var(--gold);
-    color: var(--gold);
+    background: var(--gold);
+    color: var(--white);
 }
 @media screen and (max-width: 650px) {
     .FooterCompBox{

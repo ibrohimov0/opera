@@ -75,7 +75,13 @@
     padding: 1vw;
     border-radius: 1vw;
 }
-
+.modalTel input::-webkit-outer-spin-button,
+.modalTel input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+.modalTel input[type=number] {
+    -moz-appearance: textfield;
+}
 .modalTel input::placeholder {
     color: black;
 }

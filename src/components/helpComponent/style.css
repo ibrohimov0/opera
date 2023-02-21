@@ -1,7 +1,7 @@
 .helpComp .titleBox{ 
     display: flex; 
     align-items: center; 
-    width: 100%; 
+    width: 97%; 
     height: 6vh; 
     overflow: hidden; 
     position: relative; 

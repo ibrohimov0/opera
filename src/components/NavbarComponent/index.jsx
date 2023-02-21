@@ -51,7 +51,10 @@ function Navbar() {
             <li><h3><button>BIZ HAQIMIZDA</button></h3></li>
             <li><h3><button>BAJARILGAN ISHLAR</button></h3></li>
             <li><h3><button>KONTAKTLAR</button></h3></li>
-            <li><button>UZ</button><button>RU</button></li>
+            <li>
+                <p ref={stP} onClick={Uz}>UZ</p>
+                <p ref={ndP} onClick={Ru}>RU</p>
+            </li>
         </ul>
     </div>
     </>
