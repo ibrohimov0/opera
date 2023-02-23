@@ -36,22 +36,21 @@
 .ModalUpOl{ 
     position: fixed; 
     display: flex; 
-    justify-content: center; 
-    overflow-y: scroll; 
-    z-index: 4; 
+    justify-content: center;
+    align-items: center;
+    z-index: 5; 
+    width: 100%;
 } 
 .aboutComp .aboutModal{ 
     display: block; 
     position: fixed; 
     background: var(--white); 
-    z-index: 2; 
+    z-index: 5; 
     width: 40%; 
-    top: 20%; 
     margin-bottom: 20%; 
     animation-duration: 2s; 
-    top: 100%; 
     height: 80vh; 
-    overflow-y: scroll; 
+    overflow-y: scroll;
 } 
 .aboutComp .aboutModal img{ 
     width: 100%; 
