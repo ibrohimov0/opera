@@ -25,8 +25,9 @@
     font-size: 1.05vw;
     display: flex;
 }
-.Navbar li h3{
+.Navbar li h3 button{
     font-weight: 450;
+    color: var(--black);
 }
 .Navbar li button{
     font-size: 1.1vw;
@@ -39,7 +40,7 @@
     font-weight: 400;
     cursor: pointer;
 }
-.Navbar li h3:hover{
+.Navbar li h3 button:hover{
     color: var(--gold);
 }
 .BarsNav{
@@ -84,9 +85,10 @@
     padding: 0.1vw;
     color: var(--black);
 }
-.BarsSide li h3{
+.BarsSide li h3 button{
     font-size: 2.6vw;
     font-weight: 450;
+    color: var(--black);
 }
 .BarsSide li button{
     font-size: 3.6vw;
@@ -94,7 +96,7 @@
     font-weight: 400;
     margin-top: 0.5vw;
 }
-.BarsSide li h3:hover{
+.BarsSide li h3 button:hover{
     color: var(--gold);
 }
 .HandleCloseSide{

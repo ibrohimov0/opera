@@ -5,8 +5,8 @@ function Navbar() {
     const barsSide = useRef();
     const btnOpen = useRef();
     const btnClose = useRef();
-    const stP = useRef(true)
-    const ndP = useRef(false)
+    const stP = useRef()
+    const ndP = useRef()
     const HandleOpenSide = () =>{
         btnClose.current.style.display = 'block'
         btnOpen.current.style.display = 'none'
@@ -18,7 +18,7 @@ function Navbar() {
         barsSide.current.style.transform = 'translateX(-200%)'
     }
     const Uz = () => {
-        stP.current.style.color = "var(--gold";
+        stP.current.style.color = "var(--gold)";
         ndP.current.style.color = "var(--black)";
     }
     const Ru = () => {
